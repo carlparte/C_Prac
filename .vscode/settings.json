@@ -1,2 +1,10 @@
 {
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "code-runner.executorMap": {
+        "c": "gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && rm $fileNameWithoutExt",
+        "cpp": "g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && rm $fileNameWithoutExt",
+        "python": "python3 $fileName"
+    },
+    "editor.tabSize": 2,
+    "code-runner.runInTerminal": true
 }
