@@ -1,3 +1,4 @@
+// 数组
 #include <stdio.h>
 void change1(int b)
 {
