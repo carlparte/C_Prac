@@ -3,7 +3,7 @@
     "code-runner.executorMap": {
         "c": "gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && rm $fileNameWithoutExt",
         "cpp": "g++ $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt && rm $fileNameWithoutExt",
-        "python": "python3 $fileName"
+        "python": "python3 -u $fileName"
     },
     "editor.tabSize": 2,
     "code-runner.runInTerminal": true
