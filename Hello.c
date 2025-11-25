@@ -1,9 +1,9 @@
 #include <stdio.h>
-int addTwo(int a, int b) //function: add two number together
+int addTwo(int a, int b) // function: add two number together
 {
   return a + b;
 }
-char pri(int n) //test char and ASCII
+char pri(int n) // test char and ASCII
 {
   return 'A' + n;
 }
